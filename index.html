@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Mehta Fitness</title>
+    <style>
+        body {
+
+            background-image: url('Image/bg.jpg');
+            margin: 0px;
+            padding: 0px;
+            background-size: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 1800px;
+            color: white;
+
+
+        }
+
+        .left {
+            
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 34px;
+
+        }
+
+        .mid {
+            
+            display: block;
+            width: 52%;
+            margin: 20px auto;
+
+
+        }
+
+        .right {
+            
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            right: 34px;
+
+
+        }
+
+        .left img {
+            width: 188px;
+
+            height: 120px;
+
+        }
+
+        .left div {
+            color: purple;
+            font-size: 20px;
+            text-align: center;
+            margin: 5px;
+            font-family: 'Permanent Marker', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .btn {
+            color: cyan;
+            background-color: red;
+            margin: 6px;
+            padding: 23px;
+            font-size: 20px;
+            border-radius: 20px;
+            font-family: 'Permanent Marker', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            color: white;
+            font-size: 15px;
+        }
+
+        .navbar li a {
+            color: palevioletred;
+            text-decoration: none;
+            padding: 26px;
+            margin: 0px;
+            font-size: 27px;
+            font-family: 'Permanent Marker', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+
+            color: royalblue;
+        }
+
+        .btn:hover {
+            color: rgb(48, 224, 13);
+            cursor: pointer;
+        }
+
+
+
+        .form-group {
+            margin: 7px;
+            padding: 2px;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 348px;
+            padding: 13px;
+            border: 2px solid black;
+            margin: 14px auto;
+            font-size: 20px;
+            border-radius: 28px;
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 200px 145px;
+            padding: 71px 80px;
+            width: 35%;
+            border-radius: 30px;
+            height: 700px;
+        }
+
+
+        .container h1 {
+
+            text-align: center;
+            color: seagreen;
+            font-size: 65px;
+            font-family: 'Permanent Marker', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .form-group ::placeholder {
+            color: purple;
+            font-family: 'Permanent Marker', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .submitButton {
+            margin: 16px 183px;
+            padding: 11px 28px;
+            width: 173px;
+            border-radius: 25px;
+            font-size: 25px;
+            color: red;
+            background-color: cadetblue;
+            cursor: pointer;
+            font-family: 'Permanent Marker', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <heder class="header">
+        <!--left for logo-->
+        <div class="left">
+            <img src="Image/logo.png" alt="image not found">
+            <div>Mehta Fitness</div>
+        </div>
+        <!--mid for navigation-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Bakery center</a> </li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!--right for buttons-->
+        <div class="right">
+            <button class="btn">Call us </button><button class="btn">Email Us </button>
+        </div>
+    </heder>
+
+    <div class="container">
+
+        <h1>join the India's best gym</h1>
+        <form action="noaction.php">
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Order Number">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Mobile Number">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Locality">
+            </div>
+            <button class="submitButton">Submit</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
